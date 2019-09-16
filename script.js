@@ -32,7 +32,7 @@ const objCarro = {
         }
         
         
-        if(this.quantidadePessoas+1 > this.assentos) {
+        if(this.quantidadePessoas >= this.assentos) {
             return "o carro está cheio!";
         } 
 
